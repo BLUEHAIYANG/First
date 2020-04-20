@@ -34,7 +34,7 @@ with a focus on simplicity and plain text readability.
 * 建立二维数组result[][]，用于记录每一步排程的最低消耗。
 * 建立二维数组line[][],用于记录排程的具体顺序
 * 使用自底向上法：
- * 初始化结果数组：result[1] 
+ * 初始化结果数组：result[1]\[2] 
 
 
 

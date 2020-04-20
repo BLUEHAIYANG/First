@@ -14,6 +14,34 @@ with a focus on simplicity and plain text readability.
 * Explore the upper-right toolbox menu to discover how Markdown works. 
 * `Alt-Q` reformats the current paragraph.
 
-Enjoy!
+#实验目的
+* 理解动态规划算法的设计思想，解决作业排程问题和最大子序列问题.
+
+#实验内容
+##section 1 ：作业排程
+### 输入和输出
+* 输入
+ * 装配线的长度:n
+ * 两条装配线的各自的流程耗时：arrS1[]，arrS2[]；数组长度为n+2，其中数组第一位是进入装配线用时，
+  最后一位是退出装配线用时
+ * 转换装配线的用时t[].
+
+* 输出
+ * 最小耗时result
+ * 打印排程序列line[]
+
+###实现方法
+* 建立二维数组result[][]，用于记录每一步排程的最低消耗。
+* 建立二维数组line[][],用于记录排程的具体顺序
+* 使用自底向上法：
+ * 初始化结果数组：result[1] 
+
+
+
+
+
+
+
+[微信图片_20200419203706]: images/-_20200419203706.jpg "微信图片_20200419203706" { width:auto; max-width:90% }
 
 [reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"

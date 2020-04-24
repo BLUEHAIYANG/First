@@ -1,0 +1,55 @@
+package:ctex
+Title         : 算法设计实验二：分治法
+Author        : 软工1802 兰海洋 U201817003
+Logo          : True
+
+[TITLE]
+
+# Madoko 
+
+Madoko is a fast markdown processor for writing professional articles
+with a focus on simplicity and plain text readability.
+
+* Read the [reference manual].
+* Explore the upper-right toolbox menu to discover how Markdown works. 
+* `Alt-Q` reformats the current paragraph.
+
+Enjoy!
+
+# 被一个算法问题困住了怎么办？
+&emsp;&emsp;被困住大概有这么几种情况
+
+* （1）常规办法代价太大
+> 二维平面上有一堆点，找出其中两两距离最小的一点。那好，我两个两个一组找，按组比对，记录最小值。
+这个做法简单明了！但是，但凡你敢在项目中使用这个算法，很有可能会被队友按在地上摩擦------但凡平面
+上超过了十个点，你就会发现运行速度慢到不行----时间复杂度是O（n！）
+* （2）不知道如何实现
+> 紧接着上一点，如果你不想被队友按在地上摩擦，那你肯定要想办法把算法优化优化。但如果你跟我一样菜，
+大抵也会碰到这样的情况：除了暴力解，我就不会了！
+
+&emsp;&emsp;**在这种时候分治法应当是你第一个考虑的算法设计思想！！！！**
+
+# 分治法是个啥
+* 分治法是种算法设计思想，而且是超级常见的那种----《算法导论》介绍的第一种算法思想，
+是基础中的基础。
+* 第一步是通过把复杂的大问题分解成简单的小问题，这个好理解啊
+* 第二步是挨个解决小问题，通常来说小问题更容易解决。这个也好办呐。但是难在最后一步：
+* 第三步：解决完了小问题，就要将小问题的解结合起来变成大问题的解！这是分治法的难度和精髓所在！
+
+# 为啥使用分治法
+&emsp;&emsp;总结起来有两点：提供解决问题的思路；优化算法！---正好对应1中被困住的情况！
+
+# 怎么使用分治法来解决问题？
+## 首先以最近点对问题为例进行分析
+&emsp;&emsp;分治法的三步走可以称为：分，治，合。
+
+* 对于第一步：分。这一步只和问题规模n有关，思路很简单：我只要把n给降低了不就行了！
+
+
+
+
+
+
+
+
+[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"

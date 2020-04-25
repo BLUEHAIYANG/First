@@ -5,16 +5,7 @@ Logo          : True
 
 [TITLE]
 
-# Madoko 
 
-Madoko is a fast markdown processor for writing professional articles
-with a focus on simplicity and plain text readability.
-
-* Read the [reference manual].
-* Explore the upper-right toolbox menu to discover how Markdown works. 
-* `Alt-Q` reformats the current paragraph.
-
-Enjoy!
 
 # 被一个算法问题困住了怎么办？
 &emsp;&emsp;被困住大概有这么几种情况
@@ -108,7 +99,7 @@ strassen设计strassen算法的出发点。
 
 ![QQ截图20200425084754]
 
-[QQ截图20200425084754]: images/QQ-20200425084754.png "QQ截图20200425084754" { width:auto; max-width:90% }
+[QQ截图20200425084754]: images/QQ-20200425084754.png "QQ截图20200425084754" { width:auto; max-width:50% }
 
 ### strassen算法和常规矩阵乘法的效率对比
 使用主方法分析可知，strassen算法的时间复杂度是O（n^2.81）,优于常规矩阵乘法

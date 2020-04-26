@@ -1,0 +1,18 @@
+package:ctex
+Title         : 算法设计实验三：动态规划
+Author        : 软工1802 兰海洋  U201817003
+Logo          : True
+
+[TITLE]
+
+# 写在前面
+&emsp;&emsp;本次实验需要解决“最长公共子序列”问题，我在上学期学习《数据结构》这门课时已经了解
+并实现过这个算法。但是重新看到这个问题时，我顿时感到悲哀：**我已经忘记怎么实现了**。但是我清楚地
+记得要解决这个问题：需要一个“状态转移方程”，只要有了它我就可以很快地运用动态规划算法
+来解决这个问题。
+
+&emsp;&emsp;并且，我忘记了这个状态转移方程。
+虽然我只要动动手指就能在老师的PPT，或者随便网上搜索一下，找到我需要的这个状态转移方程。然后依据
+它来实现算法即可。
+
+[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"

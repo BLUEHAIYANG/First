@@ -1,0 +1,22 @@
+package:ctex
+Title         : 贪婪算法
+Author        : 软工1802  兰海洋  U201817003
+Logo          : True
+
+[TITLE]
+
+# 写在前面
+&emsp;&emsp;维基百科词条将分治法，动态规划，贪婪算法放在同一个分类之下。在学习的过程中我能够明显地
+感受到贪婪算法与前二者之间存在紧密的联系，尤其是动态规划。
+
+* 动态规划在构建最优解的过程中不断回溯
+* 而贪婪算法永不回头
+
+&emsp;&emsp;贪婪算法可以说是“最简单”的算法思想，因为选择当前情况下的最优解总是不太困难的，
+构建一个局部最优解的耗费也必然少于全局最优解。但是贪婪也会带来“短视”的弊端。如何在提升效率的过程中
+兼顾正确性呢？
+
+
+
+
+[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
